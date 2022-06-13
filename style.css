@@ -186,7 +186,7 @@ section h4{
 }
 header{
     display:flex;
-    background-image: url("sunset.jpg");
+    background-image: url("sunset.webp");
     background-repeat: no-repeat;
     background-position: 1% 15%;
     height:160px;
