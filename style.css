@@ -446,8 +446,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .fade-in{
-    animation: fade-in 1000ms forwards,
-             slide-in 1500ms forwards; 
+    animation: fade-in 2000ms forwards,
+              slide-in 1500ms forwards;  
 }
 @keyframes fade-in{
    0% {opacity:0;}
