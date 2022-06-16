@@ -81,7 +81,7 @@ function animateCircle(section){
     let arrCircles = Array.from(circles)
     
     arrCircles.forEach((circle)=>{
-        console.log(isInViewport(circle))
+        
         if(isInViewport(circle)){            
             circle.classList.add('pulse')            
         }
@@ -98,7 +98,7 @@ function animateCircle(section){
 function slideInJob(section){
     let jobs = section.getElementsByClassName('slide');
     let arr = Array.from(jobs)
-    console.log(`arr length  = ${arr.length}`)
+    
     arr.forEach((job)=>{        
         if(isInViewport(job)){            
             job.classList.add('fade-in');            
